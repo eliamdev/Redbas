@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/examples.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Redbas</title>
 </head>
 
 <body>
     <header>
+<<<<<<< Updated upstream
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="d-flex container-fluid">
                 <!-- Aqui va el logo -->
@@ -18,22 +21,66 @@
 
 
 
+=======
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-3 border-bottom border-primary fixed-top">
+            <div class="container-fluid">
+                <!-- Aquí va el logo -->
+>>>>>>> Stashed changes
                 <a class="navbar-brand" href="#">
-                    <img src="assets/img/redbas_logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                    <img src="assets/img/redbas_logo.png" alt="" width="30" height="30"
+                        class="d-inline-block align-text-top">
                     Redbas
                 </a>
 
+<<<<<<< Updated upstream
 
 
 
 
+=======
+>>>>>>> Stashed changes
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+<<<<<<< Updated upstream
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <form class="d-flex" role="search">
+=======
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="nav nav-underline navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Información</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Tipo de reciclaje
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"
+                                        onmouseover="this.style.backgroundColor='#999999'; this.style.color='black';"
+                                        onmouseout="this.style.backgroundColor=''; this.style.color='black';">Metales</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#"
+                                        onmouseover="this.style.backgroundColor='#999999'; this.style.color='black';"
+                                        onmouseout="this.style.backgroundColor=''; this.style.color='black';">Vidrios</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#"
+                                        onmouseover="this.style.backgroundColor='#999999'; this.style.color='black';"
+                                        onmouseout="this.style.backgroundColor=''; this.style.color='black';">No
+                                        reciclables</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex ms-lg-3" role="search">
+>>>>>>> Stashed changes
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <!-- Este boton lo quiero eliminar y que solo busque al darle enter -->
                         <button class="btn btn-outline-success" type="submit">Search</button>
@@ -46,9 +93,46 @@
             </div>
         </nav>
     </header>
+<<<<<<< Updated upstream
+=======
+    <!-- ------- -->
+
+    <div id="fullpage">
+        <div class="section active" id="section0">
+            <h1>fullPage.js</h1>
+        </div>
+        <div class="section" id="section1">
+            <div class="slide ">
+                <h1>Simple Demo</h1>
+            </div>
+            <div class="slide active">
+                <h1>Only text</h1>
+            </div>
+            <div class="slide">
+                <h1>And text</h1>
+            </div>
+            <div class="slide">
+                <h1>And more text</h1>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <h1>No wraps, no extra markup</h1>
+        </div>
+        <div class="section" id="section3">
+            <h1>Just the simplest demo ever</h1>
+        </div>
+    </div>
+
+>>>>>>> Stashed changes
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/fullpage.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
+        });
+    </script>
 </body>
 
 </html>
