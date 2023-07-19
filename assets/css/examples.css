@@ -312,5 +312,27 @@ h1{
 }
 
 #section3{
-	background-image: linear-gradient(128deg,#40fff2,#3fbcff);
+	background-image: linear-gradient(128deg,#40fff2,#0e4c6d);
 }
+
+#section4{
+	background-image: linear-gradient(128deg,#03413c,#9fc21f);
+}
+
+/* ----- */
+.banner-container {
+	position: relative;
+  	width: 100%;
+  	height: 100vh;
+  	overflow: hidden;
+}
+ 
+.layer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: red;
+	
+  }
